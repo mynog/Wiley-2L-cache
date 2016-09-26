@@ -10,6 +10,8 @@ Usage
 mvn clean package  
 cd target  
 java -jar wiley-cache-1.0-SNAPSHOT.jar memory_cache_capacity file_cache_capacity cache_strategy(LRU | MRU)  
+  
+  
 for example:  
 java -jar wiley-cache-1.0-SNAPSHOT.jar 2 5 LRU  
 
