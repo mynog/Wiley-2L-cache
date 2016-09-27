@@ -11,8 +11,8 @@ import java.io.InputStreamReader;
 
 public class CacheTest {
 
-    Cache<Integer, String> cache;
-    BufferedReader br;
+    private Cache<Integer, String> cache;
+    private BufferedReader br;
 
     public CacheTest(int memoryCacheCapacity, int fileCacheCapacity, Strategy strategy) {
         CacheFactory<Integer, String> builder = new CacheFactory<Integer, String>();
